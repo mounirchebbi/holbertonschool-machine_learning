@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 def matrix_shape(matrix):
     """
-    Returns the dimensions of a matrix as a list of integers.
+    Calculate the dimensions of a matrix as a list of integers.
 
     Args:
         matrix (list): A multi-dimensional list.
