@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-Module for basic Python list slicing.
-
-- arr1 first two elements of arr
-- arr2 last five elements of arr
-- arr3 2nd through 6th elements of arr
-No loops or conditionals are used in this script.
-"""
-
 arr = [9, 8, 2, 3, 9, 4, 1, 0, 3]
 arr1 = arr[:2]
 arr2 = arr[-5:]
