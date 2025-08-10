@@ -13,7 +13,7 @@ def add_matrices2D(mat1, mat2):
         mat2 (list of lists): Second matrix (ints/floats)
 
     Returns:
-        list of lists: New matrix with element-wise sums, or None if shapes differ
+        list of lists: New matrix with element-wise sums None if shapes differ
     """
     if len(mat1) != len(mat2) or len(mat1[0]) != len(mat2[0]):
         return None
