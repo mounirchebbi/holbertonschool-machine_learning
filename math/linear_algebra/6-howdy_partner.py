@@ -3,12 +3,8 @@
 Module provides function to concatenate 2 lists of numbers.
 """
 
-from typing import List, Union
 
-Number = Union[int, float]
-
-
-def cat_arrays(arr1: List[Number], arr2: List[Number]) -> List[Number]:
+def cat_arrays(arr1, arr2):
     """
     Concatenates 2 lists of integers or floats into a new list
 
