@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+Module for calculating the shape (dimensions) of a matrix.
+"""
+
+
 def matrix_shape(matrix):
     """
     Calculate the dimensions of a matrix as a list of integers.
